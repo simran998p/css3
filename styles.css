@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Lobster', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f7ff00, #ffccd5);
+    color: #333;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #ff5757;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 20px;
+  }
+  
+  /* Header Styles */
+  header {
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    color: #f46b6b;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: #e35d5d;
+  }
+  
+  /* Hero Section */
+  .hero {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero-image {
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .hero-image:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Details Section */
+  .details {
+    text-align: center;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #ff6f61;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .footer-logo {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .company-info {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #f76c61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4bf2ea;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-logo,
+    .company-info,
+    .contact-form {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+   
+  }
+  
